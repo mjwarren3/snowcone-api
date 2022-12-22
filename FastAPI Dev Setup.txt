@@ -1,0 +1,11 @@
+FastAPI Dev Setup
+
+python -m venv ~/.virtualenvs/fastapi  
+
+ .\~\.virtualenvs\fastapi\Scripts\activate
+
+pip install fastapi uvicorn black pylint joblib scikit-learn pydantic
+
+[build API under main.py]
+
+uvicorn main:app --reload
